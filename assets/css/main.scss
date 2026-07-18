@@ -1,0 +1,31 @@
+---
+# Only the dashes above are required by Jekyll.
+---
+
+@charset "utf-8";
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+/* Small, optional refinements. Most design comes from Minimal Mistakes. */
+.page__content {
+  font-size: 0.94em;
+  line-height: 1.68;
+}
+
+.page__content h2 {
+  margin-top: 2.1em;
+}
+
+.page__content .publication {
+  margin-bottom: 1.25em;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.notice--info {
+  font-size: 0.9em !important;
+}
+

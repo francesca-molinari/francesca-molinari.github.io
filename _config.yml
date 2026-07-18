@@ -1,0 +1,59 @@
+# ================================================================
+# FRANCESCA'S SITE SETTINGS
+# You will rarely need to edit anything below this comment.
+# Text after a # is a note and is ignored by the website.
+# ================================================================
+
+title: "Francesca Molinari"
+description: "Professor and Vice Dean for Education at the Johns Hopkins University School of Government and Policy. Research in econometric theory and applied econometrics."
+url: "https://francesca-molinari.github.io"
+baseurl: ""
+
+minimal_mistakes_skin: "air"
+search: false
+locale: "en-US"
+
+remote_theme: "mmistakes/minimal-mistakes"
+markdown: kramdown
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# This information appears in the left-hand profile column.
+author:
+  name: "Francesca Molinari"
+  # Official university portrait. Replace with /assets/images/portrait.jpg
+  # after adding your preferred local portrait file.
+  avatar: "/assets/images/Francesca.jpg"
+  bio: "Vice Dean for Education and Professor, Johns Hopkins University School of Government and Policy"
+  location: "Washington, DC"
+  email: "fmolina4@jh.edu"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:fmolina4@jh.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=OkYbTPcAAAAJ"
+
+footer:
+  links:
+    - label: "Johns Hopkins University"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.jhu.edu/"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
