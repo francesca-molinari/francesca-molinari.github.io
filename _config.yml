@@ -8,6 +8,8 @@ title: "Francesca Molinari"
 description: "Professor and Vice Dean for Education at the Johns Hopkins University School of Government and Policy. Research in econometric theory and applied econometrics."
 url: "https://francesca-molinari.github.io"
 baseurl: ""
+atom_feed:
+  hide: true
 
 minimal_mistakes_skin: "air"
 search: false
